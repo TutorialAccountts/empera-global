@@ -1,0 +1,31 @@
+{
+  "name": "canary",
+  "version-string": "1.0.0",
+  "dependencies": [
+    "asio",
+    "pugixml",
+    "spdlog",
+    "curl",
+    "jsoncpp",
+    "protobuf",
+    "parallel-hashmap",
+    "magic-enum",
+    "zlib",
+    "mio",
+    "luajit",
+    "abseil",
+    {
+      "name": "libmariadb",
+      "features": [ "mariadbclient" ]
+    },
+    {
+      "name": "gmp",
+      "platform": "linux"
+    },
+    {
+      "name": "mpir",
+      "platform": "windows"
+    }
+  ],
+  "builtin-baseline": "0d1150cbd2f8b3eb9247c51c9f41efbb3be9454b"
+}
