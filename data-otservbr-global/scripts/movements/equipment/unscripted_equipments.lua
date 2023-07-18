@@ -17,8 +17,8 @@ local items = {
 		slot = "hand",
 		level = 600,
 		vocation = {
-			{"Paladin", true, true},
-			{"Royal Paladin"}
+			{"Elder", true, true},
+			{"Elder Druid"}
 		}
 	},
 	{

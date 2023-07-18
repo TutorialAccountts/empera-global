@@ -175,7 +175,17 @@ GameStore.Categories = {
 			    icons = { "boots_vip.png" },			
                 name = "Vip Boots", 
                 price = 0, 
-				itemtype = 3553,
+				itemtype = 43538,
+                count = 1,
+                description = "(Arm:10, protection all +7%, speed +40 200HP/200MP a cada 2s ).",
+                type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
+				moveable = true
+			},
+			{
+			    icons = { "boots_vip1.png" },			
+                name = "Vip Boots", 
+                price = 0, 
+				itemtype = 43541,
                 count = 1,
                 description = "(Arm:10, protection all +7%, speed +40 200HP/200MP a cada 2s ).",
                 type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
